@@ -4,7 +4,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            title: 'Hello World'
+            title: ''
         }
     }
 }).mount('#app');
