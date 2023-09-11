@@ -10,9 +10,12 @@
     <body>
         
         <div id="app" class="m-3">
+            <!-- Inserisco un titolo in modo dinamico tramite Vue.js -->
             <label class="me-2">Inserisci il titolo</label>
             <input type="text" v-model="title">
             <h1>{{ title }}</h1>
+
+            <img :src="imgPath">
         </div>
         
 
